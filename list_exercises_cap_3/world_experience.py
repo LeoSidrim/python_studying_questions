@@ -7,3 +7,7 @@ locals.reverse() # Inverte a ordem atual permanentemente, o último vira o prime
 print(locals)
 locals.reverse() # Reverti novamente, então voltou ao estado inicial
 print(locals)
+locals.sort() # Lista é ordenada alfabeticamente/numeral permanentemente
+print(locals) 
+locals.sort(reverse=True) # Altera a ordem de forma alfabética reversamente
+print(locals)
